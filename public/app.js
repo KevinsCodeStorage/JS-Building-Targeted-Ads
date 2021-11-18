@@ -8,8 +8,6 @@ async function getCoords(){
     return [pos.coords.latitude, pos.coords.longitude]
 }
 
-console.log(getCoords());                                     
-
 // get user's time                                                    
 function userTime(){
     const now = new Date()
